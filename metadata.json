@@ -1,0 +1,6 @@
+{
+  "name": "Zenith Music",
+  "description": "Modern audio-only music player with synchronized lyrics, YouTube streaming, and Spotify-Apple Music hybrid design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

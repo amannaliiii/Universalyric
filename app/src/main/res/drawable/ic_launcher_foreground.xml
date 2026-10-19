@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Musical double note with gradient fill -->
+    <path
+        android:pathData="M64,32 L40,38 L40,65 C38.5,63.8 35.8,63 33,63 C27.5,63 23,66.6 23,71 C23,75.4 27.5,79 33,79 C38.3,79 42.6,75.6 42.9,71.4 L43,44 L63,39 L63,60 C61.5,58.8 58.8,58 56,58 C50.5,58 46,61.6 46,66 C46,70.4 50.5,74 56,74 C61.3,74 65.6,70.6 65.9,66.4 L66,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="32"
+                android:endX="66"
+                android:endY="79"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sleek glowing sound bars on the right side -->
+    <path
+        android:pathData="M73,48 L73,64"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#818CF8" />
+    <path
+        android:pathData="M80,42 L80,70"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#A855F7" />
+    <path
+        android:pathData="M87,52 L87,60"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#38BDF8" />
+</vector>
